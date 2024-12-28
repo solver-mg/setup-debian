@@ -32,5 +32,5 @@ sudo apt -y update
 sudo apt -y install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 sudo usermod -aG docker $USER
 sudo systemctl start docker && sudo systemctl enable docker
-$ systemctl status docker
+systemctl status docker
 echo "FIM"
